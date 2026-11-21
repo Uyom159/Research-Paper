@@ -1,0 +1,376 @@
+﻿APPLYING SYSMOD PRINCIPLES TO ADVANCED TROUBLESHOOTING DEFICITS AMONG GRADE 11 COMPUTER SYSTEMS SERVICING STUDENTS: BASIS FOR A STANDARDIZED DIAGNOSTIC FRAMEWORK
+A Research Presented to the Faculty of
+Institute of Industrial Research and Training Senior High School
+National College of Science and Technology
+Dasmariñas City, Cavite
+
+
+
+
+In Partial Fulfillment of the requirements for the subject
+PRACTICAL RESEARCH 2
+
+
+
+
+Baterna, Jonas B.
+Caday, Tristan L.
+Dadivas, Roan T.
+Escuadro, Kedd Evander D.
+Suhillo, Kim Zephy D.
+Tobias, Venice Athena M.
+
+
+
+
+
+
+MARCH 2026
+APPROVAL SHEET
+The Research study entitled APPLYING SYSMOD PRINCIPLES TO ADVANCED TROUBLESHOOTING DEFICITS AMONG GRADE 11 COMPUTER SYSTEMS SERVICING STUDENTS: BASIS FOR A STANDARDIZED DIAGNOSTIC FRAMEWORK prepared and submitted by Jonas Baterna, Tristan Caday, Roan Dadivas, Kedd Evander Escuadro, Kim Zephy Suhillo, and Venice Athena Tobias has been examined and recommended for approval and acceptance.
+JAY MHAR C. TEODORO
+Research Adviser
+RESEARCH AND STUDY REVIEW PANEL
+APPROVED by the Committee on Oral Examination with a grade of ______ on __________.
+_________________________
+Panel Member
+	_________________________
+Panel Member
+	
+_________________________
+Panel Member
+	
+_________________________
+Panel Member
+	
+
+ACCEPTED and approved partial fulfillment for the subject Inquiries, Investigation and Immersion.
+MR. RYAN C. MOSTAJO, LPT, MAELM
+NCST IIRT-SHS Vice Principal
+Date: _____________
+
+
+ACKNOWLEDGEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- The Researchers
+________________
+
+
+ABSTRACT
+
+
+
+
+
+
+
+
+TABLE OF CONTENTS
+        TITLE PAGE………………………………………………………….……………..……… I
+        APPROVAL SHEET…………………………………………………………….……….. II
+        ACKNOWLEDGEMENT……………………………………………………….……..  III
+        ABSTRACT…………………………………………………………………………………  IV
+        TABLE OF CONTENTS………………………………………………………………..  VI
+        LIST OF FIGURES……………………………………………………………….……...  IX
+        LIST OF TABLES………………………………………………………………..……….  X
+
+
+CHAPTER I
+THE PROBLEM AND ITS BACKGROUND
+Introduction……………………………………………………………………… 1
+Background of the Study………………………………………………………. 2
+Statement of the Problem ….…………………………………….…………… 3
+Research Objectives …………………………………………………………... 3
+Theoretical Framework………………………………………………………… 4
+Conceptual Framework………………………………………………………… 5
+Scope and Delimitation………………………………………………………… 6
+Significance of the Study………………………………………………………. 7
+Definition of Terms……………………………………………………………… 7
+
+
+Chapter II
+REVIEW OF RELATED LITERATURE AND STUDIES
+Foreign Literature……………………………………………………………… 10
+Local Literature………………………………………………………………… 12
+Foreign Study………………………………………………………………….. 14
+Local Study…………………………………………………………………….. 17
+Synthesis……………………………………………………….………………. 19
+Justification…………………………………………………………………….. 20
+
+
+CHAPTER III
+METHODOLOGY
+Research Design………………………………………………………………. 22
+Research Locale and Respondents…….…..……………………………….. 23
+Sampling Technique…………………………………………………………… 23
+Research Instrument…………………………………………………………... 23
+Statistical Treatment…............................................................................... 24
+Data Gathering Procedure…………………………………………………26                
+CHAPTER IV
+RESULTS, ANALYSIS, AND INTERPRETATION OF DATA…………….. 27
+
+
+CHAPTER V
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+Summary of Findings…………………………………………………………… 40
+Conclusions……………………………………………………………………..  42
+Recommendations…………………………………………………………… 45
+
+
+REFERENCES..........................................................................................  47
+APPENDICES............................................................................................. 51
+Appendix A: Certificate of Validation …………………………....................  52
+Appendix B: Certificate of Data Analysis …………………………………...  53
+Appendix C: Certificate of Proofreading …………………………………….. 54
+Appendix D: Research Instrument (Survey Questionnaire)…………......... 55
+
+
+RESUME….............................................................................. 72
+
+
+
+
+
+
+LIST OF FIGURES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIST OF TABLES
+________________
+
+
+CHAPTER I
+THE PROBLEM AND ITS BACKGROUND
+
+
+Introduction
+
+
+Under the Department of Education (DepEd) K to 12 Technical-Vocational-Livelihood (TVL) track and the Technical Education and Skills Development Authority (TESDA) National Certificate II (NC II) standards, Computer Systems Servicing (CSS) serves as a foundational specialization designed to prepare secondary students for entry-level ICT careers. The curriculum mandates that learners master core competencies in installing and configuring computer systems, setting up computer networks, configuring servers, and maintaining or repairing IT infrastructures. However, as educational institutions navigate increasingly complex digital landscapes, a distinct gap has emerged between student mastery of routine, linear technical tasks and their ability to perform advanced diagnostic troubleshooting during non-routine system failures.
+In many technical laboratories, instructional emphasis remains heavily anchored on static computer assembly, standard software installation, and physical cable crimping. While Grade 11 CSS students frequently achieve high marks in these structured environments, they experience severe cognitive bottlenecks when confronted with ambiguous, multi-layered fault scenarios such as power-on self-test (POST) beep failures, operating system driver corruptions, system stop codes, and network packet loss. Rather than applying systematic fault isolation techniques, learners often resort to ad-hoc, unstructured trial-and-error practices or premature hard drive reformatting.  
+The challenge of advanced troubleshooting in Technical-Vocational Education and Training (TVET) is rooted in both pedagogical and structural limitations. Empirical evidence across Senior High School classrooms in Region IV-A confirms that Computer Systems Servicing instruction is severely constrained by static laboratory conditions and a shortage of authentic system failure scenarios, which prevents learners from developing systematic troubleshooting resilience (Bascuguin & Generoso, 2026). In secondary school laboratories, computer hardware is typically maintained in static, operational states to protect scarce institutional equipment. This creates what educators describe as the Clean Lab paradox: students are repeatedly taught how to construct functional systems, but are rarely given opportunities to diagnose dynamically corrupted or broken environments.
+This research addresses the systemic need for a structured modeling approach to technical diagnostics. According to Padilla (2026) from Laguna State Polytechnic University, incorporating systematic problem-solving approaches and step-by-step diagnostic procedures significantly enhances students' ability to analyze, test, and resolve technical faults in computer systems 
+Objectives of the Study
+The primary objective of this research is to evaluate the unstructured troubleshooting habits of Grade 11 Computer Systems Servicing students and formulate a standardized, model-based diagnostic framework grounded in SYSMOD principles.
+1. To determine the baseline level of unstructured troubleshooting practices and self-perceived technical competency among Grade 11 Computer Systems Servicing students across advanced hardware diagnostics, operating system recovery, and network fault isolation.
+2. To analyze the diagnostic procedures, decision-making patterns, cognitive fatigue factors, and qualitative procedural errors encountered by Grade 11 CSS students during non-routine system failures.
+3. To improve, and validate a Standardized SYSMOD-based Diagnostic Framework tailored for Grade 11 CSS laboratory instruction to transition learners from trial-and-error habits to structured fault isolation.
+Statement of the Problem
+1. What is the baseline level of unstructured troubleshooting practices and self-perceived technical competency among Grade 11 Computer Systems Servicing students across advanced hardware diagnostics, operating system recovery, and network fault isolation?
+2. How do Grade 11 Computer Systems Servicing students execute diagnostic workflows during non-routine technical failures, and what qualitative procedural gaps, cognitive fatigue, and logical errors hinder their systematic fault isolation?
+3. What suggestions and feedback on Standardized SYSMOD-based Diagnostic Framework can be use to improve structured model-based troubleshooting?
+Theoretical Framework
+This research is anchored exclusively on SYSMOD – The Systems Modeling Toolbox: Pragmatic MBSE with SysML (3rd Edition) authored by Tim Weilkiens (2016, 2020). SYSMOD is an established methodology in Model-Based Systems Engineering (MBSE) that utilizes Systems Modeling Language (SysML) to conceptualize, analyze, and architect complex, multi-layered systems.
+In the context of Computer Systems Servicing, SYSMOD provides a robust theoretical foundation for transforming technical diagnostics from informal guessing into structured engineering analysis. SYSMOD models an IT infrastructure as an interconnected system composed of distinct hardware, operating system, device driver, and network communication subsystems. Key SYSMOD principles applied in this study include System Context & Boundary Modeling, State Machine & Behavior Modeling, Requirement & Interface Traceability, and Structural Decomposition.
+Conceptual Framework
+The conceptual framework adopts the Input-Process-Output (IPO) model to illustrate the research flow and data integration. The framework systematically links the student baseline conditions to the mixed-methods evaluation, culminating in the proposed instructional output.
+  
+  
+  
+
+
+
+Scope and Delimitation of the Study
+This study focuses strictly on evaluating unstructured troubleshooting practices and developing a model-based diagnostic framework for Grade 11 TVL-ICT Computer Systems Servicing (CSS) students enrolled at the National College of Science and Technology (NCST) in Dasmariñas City, Cavite.
+The scope is delimited to advanced technical competencies defined under TESDA CSS NC II standards, specifically covering hardware diagnostics (POST beeps, PSU voltage testing), operating system recovery (system event log analysis, bootloader restoration, driver conflict resolution), and network path isolation. The study excludes commercial electronics repair storefronts, non-CSS academic tracks, Grade 12 students, and third-party commercial service centers.
+Significance of the Study
+The findings and instructional outputs of this research provide substantial benefits to key educational stakeholders:
+Grade 11 CSS Students: Gains a structured, logical methodology for diagnosing complex technical breakdowns, reducing cognitive frustration and eliminating reliance on trial-and-error guessing.
+ICT Teachers & Instructors: Obtains an empirical, standardized diagnostic guide and pedagogical tool to enhance student analytical thinking during laboratory troubleshooting exercises.
+NCST School Administration: Receives evidence-based recommendations for modernizing TVL-ICT laboratory instruction and optimizing equipment usage to mitigate hardware wear caused by improper diagnostics.
+Future Researchers: Establishes a solid empirical benchmark for subsequent research exploring mixed-methods diagnostic evaluations and systems modeling applications in vocational education.
+
+
+Definition of Terms
+Advanced Troubleshooting: The systematic process of isolating, identifying, and resolving non-routine, multi-layered failures in computer hardware, operating system software, and network communications.
+Unstructured Troubleshooting: An ad-hoc, informal approach to technical repair characterized by random component swapping, unsystematic guessing, and trial-and-error without logical fault isolation.
+SYSMOD: The Systems Modeling Toolbox developed by Tim Weilkiens, providing a pragmatic Model-Based Systems Engineering (MBSE) methodology to analyze systems via SysML.
+6-Step Diagnostic Method: A standard 6-stage industry troubleshooting sequence consisting of: (1) Identify problem, (2) Establish theory, (3) Test theory, (4) Plan & implement solution, (5) Verify system functionality, and (6) Document findings.
+Clean Lab Paradox: The instructional limitation where school computer laboratories maintain hardware in strictly working conditions, preventing students from experiencing dynamic system breakdowns.
+Mean Time to Repair (MTTR): The average duration required to diagnose, repair, and restore a malfunctioning computer system to full operational status.
+Diagnostic Task Observation Protocols: systematically monitor actions and capture procedural errors.
+Empirical evidence: Evidence based on real world experience.
+TESDA: Technical Education and Skills Development Authority, perceived standard
+________________
+
+
+CHAPTER II
+REVIEW OF RELATED LITERATURE AND STUDIES
+Competency Baselines and Advanced Troubleshooting Deficits
+The mandate of the K to 12 Technical-Vocational-Livelihood track in the Philippines is to equip senior high school learners with job-ready technical competencies certified under TESDA National Certificate II frameworks. In recent national evaluations of TVL-ICT graduates, researchers consistently note a bifurcation between routine task mastery and advanced diagnostic capability. Studies by Arrabaca and Habil (2025) assessing Grade 12 ICT students specializing in Computer Systems Servicing revealed that while learners achieved high academic ratings in routine tasks—such as computer assembly (68% high honors) and local area network setup (72% highest honors)—their performance declined significantly when evaluated on server configuration and diagnostic maintenance. Their self-assessed preparedness dropped to lower bounds when confronted with unplanned system failures, emphasizing the urgent need for targeted diagnostic support.
+Similarly, research by Pelayo et al. (2025) investigating student efficiency across technical training programs highlighted that while student satisfaction and procedural efficiency remain high for standardized tasks (assembling hardware mean = 4.50; preparing installers mean = 4.43), efficiency is heavily constrained by student inability to navigate non-routine software conflicts and hardware faults independently. Furthermore, Lozaga and Mananquil (2024) identified that institutional readiness across secondary schools is frequently challenged by gaps in advanced instructional materials and modern diagnostic tools, leaving students reliant on basic operating guides rather than comprehensive troubleshooting strategies.
+Pedagogical Obstacles and the Clean Lab Paradox
+A recurring theme across vocational education literature is the structural friction between laboratory preservation and authentic technical practice. In a comprehensive mixed-methods report from Batangas, Bascuguin and Generoso (2026) documented a significant perception gap between TVL teachers and school administrators regarding practical skills instruction. While teachers reported frequent implementation of problem-based learning and laboratory simulations, school heads rated these practice-intensive activities significantly lower due to resource constraints and monitoring gaps. The study emphasized that authentic technical mastery requires repeated, feedback-rich exposure to authentic failure scenarios—a condition rarely realized in standard school computer labs.
+This instructional limitation is widely recognized as the Clean Lab paradox. Because school laboratories operate under tight budgets and limited spare inventory, computer systems are maintained in static, functional configurations. As noted by Dounas-Frazer and Lewandowski (2017) in their analysis of technical troubleshooting pedagogy, when students are trained exclusively on working equipment, they develop a linear mental model that assumes system stability. When exposed to real-world faults—such as intermittent power drops, corrupted registry hives, or driver conflicts—students experience cognitive overload and fall back on exhaustive, unstructured trial-and-error. Furthermore, as highlighted in DepEd TVL instruction guides, teachers frequently encourage students to format and reinstall operating systems to save time, effectively bypassing the critical root-cause analysis stage.
+Pragmatic Systems Modeling (SYSMOD) in Technical Instruction
+To bridge the gap between linear instruction and complex technical diagnostics, educational researchers advocate for the integration of structured systems frameworks. Tim Weilkiens (2016, 2020) formulated SYSMOD (The Systems Modeling Toolbox) to provide a pragmatic, light-weight Model-Based Systems Engineering (MBSE) approach using Systems Modeling Language (SysML). SYSMOD organizes complex technical systems into explicit requirements, structural blocks, state machines, and behavioral interactions. Applying SYSMOD to computer systems servicing enables students to visualize a PC not as a monolithic box, but as a set of interacting subsystems with explicit state dependencies.
+Empirical research on simulation software and structured frameworks in vocational instruction demonstrates significant benefits. Kaysi (2025) demonstrated that integrating virtualized troubleshooting software and structured state diagrams significantly improved technical student problem-solving speed and diagnostic confidence. When learners utilize systems modeling tools—such as state-transition tables and signal flow diagrams—they learn to hypothesize root causes before touching hardware components. This systematic mental mapping directly mitigates cognitive fatigue and eliminates damaging trial-and-error practices.
+Synthesis of the Study
+The reviewed literature underscores three fundamental realities in Senior High School TVL-ICT education: (1) student technical competency is strong in routine assembly but highly vulnerable in advanced diagnostics; (2) traditional laboratory environments foster a Clean Lab paradox where students rarely experience authentic, dynamic system breakdowns; and (3) introducing Model-Based Systems Engineering frameworks like SYSMOD equips learners with the logical tools necessary to conduct systematic fault isolation. By synthesizing these insights, this capstone study positions SYSMOD not merely as an engineering tool, but as a practical instructional lens for secondary technical education.
+Justification and Gap Bridged
+While previous Philippine studies have examined general computer literacy (Boyon et al., 2019), teacher readiness (Lozaga & Mananquil, 2024), and workplace immersion preparedness (Arrabaca & Habil, 2025), virtually no research has specifically operationalized SYSMOD MBSE principles to address advanced troubleshooting deficits among Grade 11 CSS students. Prior research predominantly relies on purely quantitative surveys that capture self-perceived confidence rather than observing actual procedural diagnostic errors. This study bridges this empirical gap by employing a Convergent Mixed Methods design that pairs quantitative competency surveys with qualitative diagnostic task observations, establishing a contextualized Standardized Diagnostic Framework for Senior High School TVL-ICT instruction.
+________________
+
+
+CHAPTER III
+METHODOLOGY
+Research Design
+This study employs a Convergent Mixed Methods Research Design (also known as a parallel convergent design). In this design, quantitative and qualitative data are collected concurrently within the same timeframe, analyzed independently, and subsequently merged during the interpretation phase to provide a comprehensive evaluation of the research problem.
+The quantitative strand utilizes a descriptive survey design to measure student self-perceived competency levels, frequency of unstructured troubleshooting practices, and baseline skill ratings across advanced hardware, operating system, and network domains. Concurrently, the qualitative strand utilizes a diagnostic task observation protocol and focus group discussions (FGD) to capture real-time procedural errors, logical bottlenecks, and cognitive struggles experienced by students during simulated breakdown scenarios. Integrating both strands allows statistical trends to be directly explained by qualitative diagnostic behaviors.
+Research Locale and Respondents
+The study will be conducted at the Institute of Industrial Research and Training (IIRT) Senior High School Department of the National College of Science and Technology (NCST), located in Dasmariñas City, Cavite. NCST is a premier technical-vocational educational institution equipped with specialized TVL-ICT computer laboratories.
+The target population comprises Grade 11 Technical-Vocational-Livelihood (TVL) ICT students specializing in Computer Systems Servicing (CSS) during the School Year 2025–2026. Grade 11 students represent the ideal respondent group as they are actively engaged in core CSS competency modules prior to their Grade 12 work immersion and national assessment.
+Sampling Technique
+The research utilizes Purposive Sampling (a non-probability sampling technique) to select respondents who possess direct exposure to CSS core subjects. The quantitative sample size will consist of approximately 50 to 75 Grade 11 CSS students enrolled across active laboratory sections. For the qualitative strand, a sub-sample of 10 to 12 students exhibiting varied diagnostic performance levels will be purposively selected to participate in structured focus group discussions and observed troubleshooting tasks.
+Research Instruments
+Data collection will be executed using two primary research instruments designed specifically for this study:
+1. Quantitative Survey Questionnaire: A structured, 4-point Likert scale instrument adapted from TESDA CSS NC II competency standards and advanced troubleshooting indicators. The questionnaire measures student frequency of unstructured practices (1 = Never, 4 = Always) and perceived competency across hardware diagnostics, OS recovery, and network path isolation (1 = Not Competent, 4 = Highly Competent). The instrument will undergo expert content validation and pilot testing to establish internal reliability (target Cronbach alpha >= 0.70).
+2. Qualitative Diagnostic Observation & FGD Guide: A structured observation checklist and open-ended interview guide used during simulated system breakdown tasks. The instrument records student diagnostic sequences, time elapsed per step, reliance on trial-and-error guessing, premature reformatting tendencies, and verbalized cognitive struggles.
+Data Gathering Procedure
+The data gathering process will follow strict ethical and administrative protocols:
+1. Administrative Clearance: Formal permission letters will be submitted to the NCST IIRT-SHS Vice Principal, Research Adviser, and Department Heads to secure institutional approval for laboratory testing.
+2. Informed Consent: Written informed consent forms will be distributed to student participants (and parent/guardian consent for minors), explicitly detailing research objectives, voluntary participation, and data privacy protections under Republic Act No. 10173 (Data Privacy Act of 2012).
+3. Quantitative Survey Administration: The quantitative survey questionnaire will be administered during regular CSS laboratory schedules, ensuring a 100% retrieval rate.
+4. Qualitative Task Observation & FGD: Purposively selected student sub-groups will undergo observed troubleshooting exercises on simulated breakdown PCs, followed immediately by semi-structured focus group interviews.
+Statistical and Qualitative Data Treatment
+Collected data will be organized, coded, and analyzed using appropriate quantitative and qualitative analytical tools:
+1. Weighted Mean & Standard Deviation: To compute overall student competency levels and measure the frequency of unstructured troubleshooting habits across indicators.
+2. Percentage Distribution: To summarize demographic distributions and respondent profile characteristics.
+3. Qualitative Thematic Analysis: Qualitative interview transcripts and observation log notes will be analyzed manually using 6-phase thematic analysis (Swain & Chen, 2024) to identify recurring procedural traps, cognitive bottlenecks, and logical errors.
+4. Mixed Methods Integration Matrix: Quantitative mean scores and qualitative thematic categories will be side-by-side converged in a joint display matrix to formulate the finalized Standardized SYSMOD-based Diagnostic Framework.
+________________
+
+
+CHAPTER IV
+RESULTS, ANALYSIS, AND INTERPRETATION OF DATA
+________________
+
+
+CHAPTER V
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+REFERENCES
+Arrabaca, L. S. III, & Habil, M. A. (2025). Technical employment preparedness of Grade 12 ICT students specializing in Computer Systems Servicing. Asian Journal of Education and Social Studies, 51(12), 476-487.
+Bascuguin, C. B., & Generoso, E. T. (2026). Pedagogical flexibility and adaptive teaching strategies for practical skills mastery in computer systems servicing. Frontiers in Education, 11, 1813666.
+Boyon, J. L., et al. (2019). Perceived computer literacy skills of Grade 12-Computer Systems Servicing (CSS) students. High School Research Thesis, Pag-asa National High School.
+Department of Education. (2019). Computer Systems Servicing NC II Curriculum Guide. DepEd, Philippines.
+Dounas-Frazer, D. R., & Lewandowski, H. J. (2017). Electronics lab instructors approaches to troubleshooting instruction. Physical Review Physics Education Research, 13(1), 010102.
+Kaysi, F. (2025). Investigating the impact of simulation software on students engagement and problem-solving in technical vocational education. International Journal of Education and Research, 13(4), 210-225.
+Lozaga, G. T., & Mananquil, V. G. (2024). Teachers difficulties and schools readiness in computer systems servicing in relation to learners academic performance. IMJRISE, 1(8), 143-161.
+Pelayo, V. J. V., et al. (2025). Investigating the relationship between training programs and technological resources to the efficiency of computer system servicing students. IJRISS, 9(3), 1816-1827.
+Technical Education and Skills Development Authority. (2024). Training Regulations for Computer Systems Servicing NC II. TESDA, Philippines.
+Weilkiens, T. (2016). SYSMOD – The Systems Modeling Toolbox: Pragmatic MBSE with SysML (3rd ed.). MBSE4U Publishing.

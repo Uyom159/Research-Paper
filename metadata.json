@@ -1,0 +1,6 @@
+{
+  "name": "SYSMOD-CSS: Diagnostic Framework",
+  "description": "National College of Science and Technology (NCST) SHS Capstone Project applying SYSMOD MBSE principles to computer technical troubleshooting deficits for Grade 11 TVL-ICT CSS students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

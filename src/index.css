@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Bricolage Grotesque', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Interactive 2D PC Hardware & Software hover transitions (compositor-only) */
+.pc-svg-part {
+  cursor: pointer;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), filter 160ms ease;
+  outline: none;
+}
+
+.pc-svg-part:hover,
+.pc-svg-part:focus-visible {
+  transform: scale(1.018);
+}
+
+.pc-svg-frame {
+  cursor: pointer;
+  transition: filter 160ms ease;
+  outline: none;
+}
+
+.pc-svg-card {
+  cursor: pointer;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), filter 160ms ease;
+  outline: none;
+}
+
+.pc-svg-card:hover,
+.pc-svg-card:focus-visible {
+  transform: translateY(-2.5px) scale(1.012);
+}
+
+.pc-svg-rect {
+  transition: fill 150ms ease, stroke 150ms ease, stroke-width 150ms ease;
+}
+
+/* Full-bleed simulation container (desktop & mobile) */
+.sim-full-bleed {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+.sim-blueprint-bg {
+  background-color: #0B1324;
+  background-image:
+    linear-gradient(to right, rgba(30, 41, 59, 0.65) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 41, 59, 0.65) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.sim-popup-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Desktop (>768px): keep side-by-side PC Tower Case + Monitor layout fitted cleanly inside the popup viewport */
+.sim-hardware-split {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  max-width: min(100%, calc((100dvh - 168px) * 1.8077), 1440px);
+  padding: 0;
+  margin: 0 auto;
+  background-color: #0B1324;
+}
+
+.sim-tower-panel {
+  flex: 740 1 0%;
+  min-width: 0;
+}
+
+.sim-monitor-panel {
+  flex: 200 1 0%;
+  min-width: 0;
+}
+
+.sim-tower-desktop-svg,
+.sim-monitor-desktop-svg {
+  display: block;
+}
+
+.sim-software-desktop-svg {
+  display: block;
+  width: 100%;
+  max-width: min(100%, calc((100dvh - 168px) * 1.4902), 1180px);
+  margin: 0 auto;
+}
+
+.sim-tower-mobile-card,
+.sim-monitor-mobile-card,
+.sim-software-mobile-card {
+  display: none;
+}
+
+.sim-monitor-mobile-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0.375rem;
+  width: 100%;
+}
+
+/* Mobile (<=768px): place Monitor on top with horizontal side-by-side components and PC Tower Case underneath */
+@media (max-width: 768px) {
+  .sim-popup-stage {
+    align-items: stretch;
+    justify-content: flex-start;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .sim-popup-stage::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sim-hardware-split {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+
+  .sim-tower-panel,
+  .sim-monitor-panel {
+    flex: none;
+    width: 100%;
+  }
+
+  .sim-tower-desktop-svg,
+  .sim-monitor-desktop-svg,
+  .sim-software-desktop-svg {
+    display: none;
+  }
+
+  .sim-tower-mobile-card,
+  .sim-monitor-mobile-card,
+  .sim-software-mobile-card {
+    display: block;
+  }
+
+  .sim-desktop-only {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
